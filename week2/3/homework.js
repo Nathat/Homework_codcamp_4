@@ -4,7 +4,7 @@ function grader(a, b, c) {
     let n;
     //console.log(n)
     //if ((0 <= a <= 30) && (0 <= b <= 30) && (0 <= c <= 40)) {
-    if((a>=0)&&(a<=30)&&(b>=0)&&(b<=30)&&(c>=0)&&(c<=40)) {
+    if ((a >= 0) && (a <= 30) && (b >= 0) && (b <= 30) && (c >= 0) && (c <= 40)) {
         n = a + b + c; //
         if (n >= 80) {
             console.log('A')//console.log?
@@ -31,9 +31,9 @@ grader(-25, 25, 30)
 
 function max(n, arr) {
     for (let i = 0; i < arr.length; i++)
-        if ((n < 1 )|| (n > 1000)) {
+        if ((n < 1) || (n > 1000)) {
             return console.log("Error")
-        } else if ((arr[i] < -2000000000)|| (arr[i] > 2000000000)) {
+        } else if ((arr[i] < -2000000000) || (arr[i] > 2000000000)) {
             return console.log("Error")
         } else {
             return console.log(Math.max(...arr));
@@ -50,7 +50,7 @@ function min(n, arr) {
         } else {
             return console.log(Math.min(...arr));
         }
-    
+
 }
 
 min(5, [1, 2, 3, 5200000000, 5200000000])//มันไม่ขึ้น error  อะ
@@ -86,38 +86,50 @@ function addMatrix(m, n, matrix1, matrix2) {
 
 addMatrix(3, 3, [[1, 2, 3], [3, 2, 1], [1, 3, 2]], [[1, 1, 1], [1, 1, 1], [1, 1, 1]]);
 
-    //ข้อที่ 4 ใช้ได้แล้ว พร้อมส่ง
+//ข้อที่ 4 ใช้ได้แล้ว พร้อมส่ง
 
 function characterChecker(string) {
-  if (string === string.toUpperCase()){
-       console.log("All Capital Letter");
-  } else if (string === string.toLowerCase()) {
-       console.log("All Small Letter");
-  } else { console.log('Mix')}
+    if (string === string.toUpperCase()) {
+        console.log("All Capital Letter");
+    } else if (string === string.toLowerCase()) {
+        console.log("All Small Letter");
+    } else { console.log('Mix') }
 }
 
 characterChecker('asdasddfsDf')
 
 //ข้อที่ 5
 
-function hypotenuse(a,b) {
+function hypotenuse(a, b) {
     //c2=a2+b2
-    c = a**2 + b**2
+    c = a ** 2 + b ** 2
     console.log(Math.sqrt(c))
 }
-hypotenuse(3,4)
+hypotenuse(3, 4)
 
 //ข้อที่ 6 ได้ละ ทำเองด้วย 
 
-function sum(a,b) {
+function sum(a, b) {
     //if(( 0 <= a <= 109)&&(0 <= b <= 109)){
-    if ((a >= 0)&&(a<= Math.pow(10,9))&&(b>=0)&&(b<=Math.pow(10,9))){
+    if ((a >= 0) && (a <= Math.pow(10, 9)) && (b >= 0) && (b <= Math.pow(10, 9))) {
         result = a + b
         console.log(result)
     }
 }
 
-sum(-4,5)
+sum(-4, 5)
 
 //ข้อที่ 7
+
+function calGeometry(r) {
+    euclideanGeometry = Math.PI * (r ** 2)
+    taxicabGeometry = 2 * r * r
+    console.log(euclideanGeometry)
+    console.log(taxicabGeometry)
+}
+calGeometry(1)
+calGeometry(21)
+calGeometry(42)
+
+//ข้อที่ 8
 

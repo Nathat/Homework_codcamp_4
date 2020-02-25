@@ -1,14 +1,17 @@
-#Javascript Alert App
+# Javascript Alert App
 โปรเจคเว็บแอพฯ จัดทำโดย ณธรรศ วรกฤตพงศ์
-Features
-List 1
-List 2
-List 3
-Example code
+## Features
+* List 1
+* List 2
+* List 3
+## Example code
+
 <javascript>
 alert('ok');
-</javascript>
-Credit
+</javascript> 
+
+
+## Credit
 myemail@gmail.com
-License
+## License
 Mit License

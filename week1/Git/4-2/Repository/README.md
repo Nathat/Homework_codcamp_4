@@ -5,11 +5,11 @@
 * List 2
 * List 3
 ## Example code
-
+```
 <javascript>
 alert('ok');
 </javascript> 
-
+```
 
 ## Credit
 myemail@gmail.com

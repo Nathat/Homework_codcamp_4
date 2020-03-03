@@ -107,7 +107,7 @@ function hypotenuse(a, b) {
 }
 hypotenuse(3, 4)
 
-//ข้อที่ 6 ได้ละ ทำเองด้วย 
+//ข้อที่ 6 ได้ละ  
 
 function sum(a, b) {
     //if(( 0 <= a <= 109)&&(0 <= b <= 109)){

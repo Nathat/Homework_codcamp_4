@@ -4,8 +4,8 @@
   "description": "1.ณธรรศ วรกฤตพงศ์     2. Making the API endpoints as follows  by using Postman         1. GET /static -> return “Hello World”         2. GET /staticJSON -> return JSON of {text:”Hello World”}         3. GET /echo?text=Heyyyy -> return any string in text variable, i.e., “Heyyyy”         4. GET /plus?a=3&b=5 -> return the sum of a + b, i.e., 8         5. GET /plusByJSON?jsonText={a:3,b:5} -> return the sum of a+b, parsed the json object from   jsonText  variable, thus, it should be answer 8         6. GET /plus/6/7 -> return the sum of 6+7, which is 13         7. GET /checkEvenNumber/3",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
   },
   "devDependencies": {},
   "scripts": {
